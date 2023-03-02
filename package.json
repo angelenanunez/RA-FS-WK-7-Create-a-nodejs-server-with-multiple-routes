@@ -1,0 +1,19 @@
+{
+  "name": "ra-fs-wk-7-set-up-a-nodejs-server",
+  "version": "1.0.0",
+  "description": "A simple nodejs server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angelenanunez/RA-FS-WK-7-Set-up-a-nodejs-server.git"
+  },
+  "author": "Angelena Nunez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angelenanunez/RA-FS-WK-7-Set-up-a-nodejs-server/issues"
+  },
+  "homepage": "https://github.com/angelenanunez/RA-FS-WK-7-Set-up-a-nodejs-server#readme"
+}
