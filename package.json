@@ -1,5 +1,5 @@
 {
-  "name": "ra-fs-wk-7-set-up-a-nodejs-server",
+  "name": "RA-FS-WK-7-Create-a-nodejs-server-with-multiple-routes",
   "version": "1.0.0",
   "description": "A simple nodejs server",
   "main": "index.js",
@@ -13,7 +13,7 @@
   "author": "Angelena Nunez",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/angelenanunez/RA-FS-WK-7-Set-up-a-nodejs-server/issues"
+    "url": "https://github.com/angelenanunez/RA-FS-WK-7-Create-a-nodejs-server-with-multiple-routes/issues"
   },
-  "homepage": "https://github.com/angelenanunez/RA-FS-WK-7-Set-up-a-nodejs-server#readme"
+  "homepage": "https://github.com/angelenanunez/RA-FS-WK-7-Create-a-nodejs-server-with-multiple-routes#readme"
 }
