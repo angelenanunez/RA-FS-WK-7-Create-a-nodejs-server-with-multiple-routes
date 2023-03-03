@@ -18,10 +18,9 @@ const server = http.createServer((req, res) =>{
             res.end()
         })
     }
-    if(url === "/"){
-        res.write("Page Not Found")
-        res.end()
-    }
+    else {
+            res.end("Page not found");
+        }
     function createData(data) {
         data.forEach(element => {
             tableData+="<tr><td>${element.id}</td><td>${element.name}</td><td>${element.username}</td><td>${element.email}</td><td>${element.address.street}</td><td>${element.phone}</td></tr>"
