@@ -1,6 +1,5 @@
-import http, { request } from "http"
+import http from "http"
 import fetch from "node-fetch"
-import { createDeflateRaw } from "zlib"
 
 const server = http.createServer((req, res) =>{
     const url = req.url 
