@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A simple nodejs server",
   "main": "index.js",
-  "scripts": {
+"scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -12,8 +12,14 @@
   },
   "author": "Angelena Nunez",
   "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  }
   "bugs": {
     "url": "https://github.com/angelenanunez/RA-FS-WK-7-Create-a-nodejs-server-with-multiple-routes/issues"
   },
   "homepage": "https://github.com/angelenanunez/RA-FS-WK-7-Create-a-nodejs-server-with-multiple-routes#readme"
 }
+
+^
