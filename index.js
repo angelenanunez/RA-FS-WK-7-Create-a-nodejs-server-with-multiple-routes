@@ -17,19 +17,19 @@ const server = http.createServer((req, res) => {
                 console.log(data.results);
                 res.write(tableData)
                 res.end();  
-             });
-    else {
-        res.end("Page not found");
+     })};
+    else () => {
+    res.write("Page not found");
+    res.end();
     }
-}
-    function createData(data.results) {
+    function createData(data) {
         data.forEach(element => {
             tableData += `<tr><td>${element.id}</td><td>${element.name}</td><td>${element.username}</td><td>${element.email}</td><td>${element.address.street}</td><td>${element.phone}</td></tr>`
         });
         tableData += `</table>`
     }
-
 })server.listen(8090, console.log("Server is listening on port " + 8090));
+
 
 
 
