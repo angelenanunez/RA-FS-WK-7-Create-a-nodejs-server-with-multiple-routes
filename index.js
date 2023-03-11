@@ -18,7 +18,7 @@ const server = http.createServer((req, res) => {
                 res.write(tableData)
                 res.end();  
              });
-    else () {
+    else {
         res.end("Page not found");
     }
 }
