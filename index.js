@@ -21,7 +21,7 @@ const server = http.createServer((req, res) => {
                 res.end();  
      })};
     
-     else () => {
+    else () => {
     res.write("Page not found");
     res.end();
     }
@@ -32,7 +32,7 @@ const server = http.createServer((req, res) => {
         });
         tableData += `</table>`
     }
-    
+
 })server.listen(8090, console.log("Server is listening on port " + 8090));
 
 
